@@ -15,8 +15,8 @@
 			icon: 'comments'
 			auxCollections: ['Posts']
 			tableColumns: [
-              {label: 'Content';name:'content'}
-              {label:'Post';name:'doc',collection: 'Posts',collection_property:'title'}
+              {label: 'Content',name:'content'}
+              {label:'Post',name:'doc',collection: 'Posts',collection_property:'title'}
               {label:'User',name:'owner',collection:'Users'}
             ]
 		}
